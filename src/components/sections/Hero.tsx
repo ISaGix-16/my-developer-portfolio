@@ -20,9 +20,9 @@ export default function Hero() {
           </h1>
 
           <p className="hero-description">
-            An IIT Hyderabad graduate passionate about software development and
-            building practical web applications with React, Next.js, and modern
-            backend technologies.
+            An IIT Hyderabad graduate building full-stack web applications with
+            React, Next.js, TypeScript, and Node.js. Open to SDE, full-stack,
+            and frontend roles.
           </p>
 
           <div className="hero-actions">

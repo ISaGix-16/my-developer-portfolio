@@ -2,22 +2,44 @@ const skillGroups = [
   {
     title: "Programming Languages",
     description: "Programming and problem-solving fundamentals.",
-    skills: ["C++", "JavaScript", "TypeScript"],
+    skills: ["C++", "JavaScript", "TypeScript", "Data Structures & Algorithms"],
   },
   {
     title: "Frontend Development",
     description: "Building modern, responsive web interfaces.",
-    skills: ["HTML", "CSS", "React.js", "Next.js", "Tailwind CSS"],
+    skills: [
+      "HTML",
+      "CSS",
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "React Router",
+      "React Hook Form",
+    ],
   },
   {
     title: "Backend Development",
     description: "Developing application logic and backend services.",
-    skills: ["Node.js", "Express.js", "REST APIs"],
+    skills: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT Authentication",
+      "Middleware",
+    ],
   },
   {
     title: "Databases & Backend Services",
     description: "Data modeling, database access, and backend platforms.",
-    skills: ["MongoDB", "Appwrite", "Prisma", "Convex"],
+    skills: [
+      "PostgreSQL",
+      "MongoDB",
+      "Mongoose",
+      "Prisma",
+      "Convex",
+      "Supabase",
+      "Appwrite",
+    ],
   },
   {
     title: "State & Authentication",
@@ -27,7 +49,12 @@ const skillGroups = [
   {
     title: "Developer Tools",
     description: "Version control and development workflows.",
-    skills: ["Git", "GitHub"],
+    skills: ["Git", "GitHub", "Vercel"],
+  },
+  {
+    title: "APIs & Services",
+    description: "Third-party APIs and services integrated into my projects.",
+    skills: ["Google Gemini API", "Vonage Video API", "Cloudinary", "Inngest", "Resend"],
   },
 ];
 

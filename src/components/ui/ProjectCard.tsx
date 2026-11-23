@@ -11,16 +11,18 @@ interface ProjectCardProps {
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <article className="project-card">
-      <div className="project-image-wrapper">
-        <Image
-          src={project.image}
-          alt={`${project.title} application screenshot`}
-          width={1280}
-          height={800}
-          className="project-image"
-          sizes="(max-width: 768px) 100vw, (max-width: 1120px) 50vw, 540px"
-        />
-      </div>
+      {project.image ? (
+        <div className="project-image-wrapper">
+          <Image
+            src={project.image}
+            alt={`${project.title} application screenshot`}
+            width={1280}
+            height={800}
+            className="project-image"
+            sizes="(max-width: 768px) 100vw, (max-width: 1120px) 50vw, 540px"
+          />
+        </div>
+      ) : null}
 
       <div className="project-card-body">
         <div className="project-card-top">
@@ -46,21 +48,27 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
 
         <div className="project-card-footer">
-          <Link
-            href={project.liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link project-link-primary">
-            Live Demo
-            <ExternalLink size={16} aria-hidden="true" />
-          </Link>
+          {project.liveUrl ? (
+            <Link
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link project-link-primary">
+              Live Demo
+              <ExternalLink size={16} aria-hidden="true" />
+            </Link>
+          ) : null}
 
           {project.githubUrl ? (
             <Link
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="project-link">
+              className={
+                project.liveUrl
+                  ? "project-link"
+                  : "project-link project-link-primary"
+              }>
               Source Code
               <ArrowUpRight size={16} aria-hidden="true" />
             </Link>

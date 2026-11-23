@@ -36,6 +36,10 @@ export const metadata: Metadata = {
     "Backend Developer",
     "React Developer",
     "Next.js Developer",
+    "TypeScript Developer",
+    "Node.js",
+    "PostgreSQL",
+    "SDE Fresher",
     "IIT Hyderabad",
   ],
 

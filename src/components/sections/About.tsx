@@ -18,28 +18,30 @@ export default function About() {
             <p className="about-intro">
               I&apos;m Aman Arya, a software developer and graduate of the
               Indian Institute of Technology Hyderabad, where I earned my B.Tech
-              in Mechanical &amp; Aerospace Engineering.
+              in Mechanical &amp; Aerospace Engineering and moved into software
+              by building things.
             </p>
 
             <p>
-              My interest lies in building modern web applications with
-              technologies such as JavaScript, React, Next.js, and Node.js. I
-              enjoy turning ideas into functional products and writing code that
-              is clean, maintainable, and easy to understand.
+              I build full-stack web applications with React, Next.js,
+              TypeScript, and Node.js, backed by PostgreSQL, MongoDB, and
+              modern backend platforms. I&apos;ve also solved 1,000+ problems
+              on LeetCode, GeeksforGeeks, and Code360, which keeps my
+              problem-solving and C++ fundamentals sharp.
             </p>
 
             <p>
-              My projects include Quorilo, a blogging platform; SplitE, an
-              expense-splitting application; and MediBridge, a healthcare
-              application. Through these projects, I&apos;ve been developing my
-              skills in frontend development, backend integration, and
-              full-stack application development.
+              I&apos;ve shipped Quorilo, a blogging platform; SplitE, an
+              AI-powered expense-splitting app; and MediBridge, a doctor
+              appointment platform with video consultations. I&apos;ve also
+              built a video-platform REST API with Express, MongoDB, and JWT
+              authentication to strengthen my backend skills.
             </p>
 
             <p>
-              I&apos;m looking to apply my technical skills to meaningful
-              software development work, learn from experienced developers, and
-              continue growing as an engineer.
+              I&apos;m looking for an SDE, full-stack, or frontend role where I
+              can ship real features, learn from experienced engineers, and
+              keep growing.
             </p>
 
             <a href="#projects" className="about-link">
