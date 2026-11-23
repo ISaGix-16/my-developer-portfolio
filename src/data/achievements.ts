@@ -22,9 +22,9 @@ export const achievements: Achievement[] = [
   },
   {
     title: "Introduction to Programming",
-    organization: "Course",
+    organization: "IIT Hyderabad",
     description:
-      "Completed coursework covering introductory programming concepts.",
+      "Completed the Introduction to Programming course as part of my B.Tech at IIT Hyderabad.",
     category: "Achievement",
   },
 ];
